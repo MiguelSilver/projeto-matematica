@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.torres {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.torre {
+    width: 10px;
+    height: 200px;
+    background-color: #888;
+    position: relative;
+    margin: 0 20px;
+}
+
+.disco {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #555;
+    border-radius: 3px;
+}
+
+.disco-1 {
+    height: 20px;
+    background-color: #FF0000;
+}
+
+.disco-2 {
+    height: 40px;
+    background-color: #FF7F00;
+}
+
+.disco-3 {
+    height: 60px;
+    background-color: #FFFF00;
+}
+
+.disco-4 {
+    height: 80px;
+    background-color: #00FF00;
+}
+
+.disco-5 {
+    height: 100px;
+    background-color: #0000FF;
+}
+
+.disco-6 {
+    height: 120px;
+    background-color: #4B0082;
+}
+
+.disco-7 {
